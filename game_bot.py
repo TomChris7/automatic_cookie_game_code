@@ -19,9 +19,12 @@ for n in range(len(store_prices)):
     store_dict[store_prices[n]] = store_ids[n]
 buyable_item = 0
 
-#Time ranges
+###Time ranges###
+#Current time
 tCurrent = time.time()
+#5 seconds timeout
 timeout = tCurrent + 5
+#5mins timeout
 five_min = tCurrent + 300
 
 #getting cookie to click on
